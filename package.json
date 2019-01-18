@@ -1,0 +1,27 @@
+{
+  "name": "AdminContentManager_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc & nodemon ./bin/index.js",
+    "build": "tsc"
+  },
+  "author": "klevytska",
+  "dependencies": {
+    "@types/cors": "^2.8.4",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.5",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/express-session": "^1.15.10",
+    "@types/nedb": "^1.8.5",
+    "@types/node": "^10.7.1",
+    "nodemon": "^1.11.0"
+  }
+}
